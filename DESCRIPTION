@@ -1,6 +1,6 @@
 Package: parmsurvfit
 Title: Parametric Survival Functions
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: c(person("Ashley", "Jacobson", email = "ashleypjacobson@gmail.com", role = c("aut", "cre")),
               person("Victor", "Wilson", email = "victorjw26@yahoo.com", role = c("aut")),
               person("Shannon", "Pileggi", email = "skmcclintock@gmail.com", role = c("aut")))
