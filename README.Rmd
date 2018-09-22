@@ -1,0 +1,67 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# parmsurvfit
+
+The goal of parmsurvfit is to create functions that display output for Survival Analysis
+that are easily available in Minitab, but much more difficult to obtain in R. All of the
+functions in this package are assuming that the data follows a specified parametric distribution. 
+Some examples of some of the items that are readily available in Minitab but not in R, that we 
+attempted to easily recreate in R are as follows:  
+
+* Computing survival probablities based on a specified parametric distribution  
+* Displaying an estimated survival, hazard, or cumulative hazard curve based on a specified
+parametric distribution (singular as well as by groups)  
+* Estimating survival times based on a specified parametric distribution   
+* Estimating parameters based on a specified parametric distribution    
+* Estimating various statistics, including mean, median, standard deviation, and percentiles of
+survival time based on a specified parametric distribution   
+* Producing a qq-plot to examine distribution fit 
+* Computing the Anderson-Darling test statistic as a measure of fit for a specified parametric
+distribution
+
+## Installation
+
+You can install parmsurvfit from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("apjacobson/parmsurvfit")
+```
+
+## Examples
+
+The following lines of code are examples of how to use the plotting functions in parmsurvfit:
+
+```{r example}
+library(survival)
+data("rats")
+plot_surv(rats, "weibull", time = "time", censor = "status")
+plot_haz(rats, "weibull", time = "time", censor = "status")
+plot_cumhaz(rats, "weibull", time = "time", censor = "status")
+
+plot_density(rats, "weibull", time = "time", censor = "status")
+plot_qqsurv(rats, "weibull", time = "time", censor = "status")
+```
+
+The following shows how to use other functions in parmsurvfit:
+
+```{r example}
+library(survival)
+data("rats")
+surv_summary(rats, "weibull", censor = "status")
+surv_prob(rats, "weibull", 80, censor = "status")
+compute_AD(rats, "weibull", censor = "status")
+```
+
