@@ -3,7 +3,7 @@
 \docType{data}
 \name{rearrest}
 \alias{rearrest}
-\title{Data on time until reincarceration for 194 inmates.}
+\title{Data on time until re-incarceration for 194 inmates.}
 \format{A data frame with 194 rows and 5 variables:
 \describe{
   \item{months}{months until re-arrest}
