@@ -19,10 +19,10 @@ aggressive
 Diekmann et al. (1996) investigated the association between driver
 characteristics and social status of cars to aggressive driver
 responses by measuring the time that elapsed between the being
-blocked and honking the horn. Researchers intentionally blocked 
-57 motorists at a green light by a Volkswagen Jetta, and recorded 
+blocked and honking the horn. Researchers intentionally blocked
+57 motorists at a green light by a Volkswagen Jetta, and recorded
 the time it took for motorists to show signs of aggression.
-Signs of aggression included honking their horn or beaming 
+Signs of aggression included honking their horn or beaming
 the headlights at the Jetta
 }
 \keyword{datasets}

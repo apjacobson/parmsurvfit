@@ -6,8 +6,8 @@
 \alias{parmsurvfit-package}
 \title{parmsurvfit: Fitting right censored data to parametric distributions.}
 \description{
-Executes parametric survival analysis techniques similar to those in Minitab. Fits right censored data to a
-given parametric distribution, produces summary statistics of the fitted distribution, and plots parametric survival, 
+Executes parametric survival analysis techniques similar to those in 'Minitab'. Fits right censored data to a
+given parametric distribution, produces summary statistics of the fitted distribution, and plots parametric survival,
 hazard, and cumulative hazard plots. Produces Anderson-Darling test statistic and probability plots to assess goodness
 of fit of right censored data to a distribution.
 }
@@ -15,21 +15,21 @@ of fit of right censored data to a distribution.
 Functions
 \itemize{
 \item{ \code{\link{fit_data}}}
-\item{ \code{\link{surv_summary}}} 
-\item{ \code{\link{surv_prob}}} 
-\item{ \code{\link{plot_surv}}} 
-\item{ \code{\link{plot_haz}}} 
-\item{ \code{\link{plot_cumhaz}}} 
-\item{ \code{\link{plot_density}}} 
-\item{ \code{\link{plot_qqsurv}}} 
+\item{ \code{\link{surv_summary}}}
+\item{ \code{\link{surv_prob}}}
+\item{ \code{\link{plot_surv}}}
+\item{ \code{\link{plot_haz}}}
+\item{ \code{\link{plot_cumhaz}}}
+\item{ \code{\link{plot_density}}}
+\item{ \code{\link{plot_qqsurv}}}
 \item{ \code{\link{compute_AD}}}
 }
 Datasets
 \itemize{
-\item{ \code{\link{aggressive}}} 
-\item{ \code{\link{firstdrink}}} 
-\item{ \code{\link{graduate}}} 
-\item{ \code{\link{oscars}}} 
-\item{ \code{\link{rearrest}}} 
+\item{ \code{\link{aggressive}}}
+\item{ \code{\link{firstdrink}}}
+\item{ \code{\link{graduate}}}
+\item{ \code{\link{oscars}}}
+\item{ \code{\link{rearrest}}}
 }
 }

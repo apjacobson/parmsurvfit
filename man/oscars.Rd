@@ -14,10 +14,10 @@
   \item{top_movie}{title of actor's movie with the top gross earnings}
   \item{top_gross}{actor's top gross earnings from a single movie}
   \item{gender}{actor's gender}
-  \item{years_until_nom}{number of years between actor's first full film appearance and first Oscar nomination}
+  \item{years_until_nom}{number of years between actor's first full film appearance and first oscar nomination}
   \item{censor}{censoring status indicator variable (0 = censored event time, 1 = complete event time)}
   \item{first_film_appearance}{year of actor's first full film appearance}
-  \item{first_oscar_nom}{year of actor's first Oscar nomination}
+  \item{first_oscar_nom}{year of actor's first oscar nomination}
 }}
 \source{
 \url{https://github.com/shannonpileggi/SP--Pablo--RProgramming}
@@ -27,11 +27,11 @@ oscars
 }
 \description{
 The dataset contains data for the top 128 grossing actors up to 2017 as listed on Box Office Mojo.
-The data for the first film appearance and for the first Oscar nomination was taken from IMDb.
+The data for the first film appearance and for the first oscar nomination was taken from IMDb.
 It should be noted that of the 128 observations in the data set, 48 were right-censored. Right-censored
-observations represent actors who have not received an Oscar nomination by the year 2017 or actors that
-died before 2017 without ever receiving an Oscar nomination. For the censor variable "1" represents complete
-observations, actors who received an Oscar nomination by the year 2017, and "0" represents right-censored
+observations represent actors who have not received an oscar nomination by the year 2017 or actors that
+died before 2017 without ever receiving an oscar nomination. For the censor variable "1" represents complete
+observations, actors who received an oscar nomination by the year 2017, and "0" represents right-censored
 observations.
 }
 \keyword{datasets}
