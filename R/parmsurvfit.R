@@ -1,6 +1,6 @@
 #' parmsurvfit: Fitting right censored data to parametric distributions.
 #'
-#' Executes parametric survival analysis techniques similar to those in 'Minitab.' Fits right censored data to a
+#' Executes parametric survival analysis techniques similar to those in 'Minitab'. Fits right censored data to a
 #' given parametric distribution, produces summary statistics of the fitted distribution, and plots parametric survival,
 #' hazard, and cumulative hazard plots. Produces Anderson-Darling test statistic and probability plots to assess goodness
 #' of fit of right censored data to a distribution.
@@ -35,7 +35,7 @@ NULL
 #'
 #' @format A data frame with 1000 rows and 3 variables:
 #' \describe{
-#'   \item{age}{the age at which the survey respondant had their first drink of alcohol}
+#'   \item{age}{the age at which the survey respondent had their first drink of alcohol}
 #'   \item{censor}{censoring status indicator variable (0 = censored event time, 1 = complete event time)}
 #'   \item{gender}{a dichotomous variable identifying gender (1 = male, 2 = female)}
 #' }
