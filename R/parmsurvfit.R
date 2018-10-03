@@ -1,29 +1,29 @@
 #' parmsurvfit: Fitting right censored data to parametric distributions.
 #'
-#' Executes parametric survival analysis techniques similar to those in Minitab. Fits right censored data to a
-#' given parametric distribution, produces summary statistics of the fitted distribution, and plots parametric survival, 
+#' Executes parametric survival analysis techniques similar to those in 'Minitab.' Fits right censored data to a
+#' given parametric distribution, produces summary statistics of the fitted distribution, and plots parametric survival,
 #' hazard, and cumulative hazard plots. Produces Anderson-Darling test statistic and probability plots to assess goodness
 #' of fit of right censored data to a distribution.
-#' @details 
+#' @details
 #' Functions
 #' \itemize{
 #' \item{ \code{\link{fit_data}}}
-#' \item{ \code{\link{surv_summary}}} 
-#' \item{ \code{\link{surv_prob}}} 
-#' \item{ \code{\link{plot_surv}}} 
-#' \item{ \code{\link{plot_haz}}} 
-#' \item{ \code{\link{plot_cumhaz}}} 
-#' \item{ \code{\link{plot_density}}} 
-#' \item{ \code{\link{plot_qqsurv}}} 
+#' \item{ \code{\link{surv_summary}}}
+#' \item{ \code{\link{surv_prob}}}
+#' \item{ \code{\link{plot_surv}}}
+#' \item{ \code{\link{plot_haz}}}
+#' \item{ \code{\link{plot_cumhaz}}}
+#' \item{ \code{\link{plot_density}}}
+#' \item{ \code{\link{plot_qqsurv}}}
 #' \item{ \code{\link{compute_AD}}}
 #' }
 #' Datasets
 #' \itemize{
-#' \item{ \code{\link{aggressive}}} 
-#' \item{ \code{\link{firstdrink}}} 
-#' \item{ \code{\link{graduate}}} 
-#' \item{ \code{\link{oscars}}} 
-#' \item{ \code{\link{rearrest}}} 
+#' \item{ \code{\link{aggressive}}}
+#' \item{ \code{\link{firstdrink}}}
+#' \item{ \code{\link{graduate}}}
+#' \item{ \code{\link{oscars}}}
+#' \item{ \code{\link{rearrest}}}
 #' }
 #'
 #' @docType package
@@ -89,8 +89,8 @@ NULL
 
 #' Data on time until actors receive their first Academy Award nomination
 #'
-#' The dataset contains data for the top 128 grossing actors up to 2017 as listed on Box Office Mojo.  
-#' The data for the first film appearance and for the first oscar nomination was taken from IMDb. 
+#' The dataset contains data for the top 128 grossing actors up to 2017 as listed on Box Office Mojo.
+#' The data for the first film appearance and for the first oscar nomination was taken from IMDb.
 #' It should be noted that of the 128 observations in the data set, 48 were right-censored. Right-censored
 #' observations represent actors who have not received an oscar nomination by the year 2017 or actors that
 #' died before 2017 without ever receiving an oscar nomination. For the censor variable "1" represents complete
@@ -121,10 +121,10 @@ NULL
 #' Diekmann et al. (1996) investigated the association between driver
 #' characteristics and social status of cars to aggressive driver
 #' responses by measuring the time that elapsed between the being
-#' blocked and honking the horn. Researchers intentionally blocked 
-#' 57 motorists at a green light by a Volkswagen Jetta, and recorded 
+#' blocked and honking the horn. Researchers intentionally blocked
+#' 57 motorists at a green light by a Volkswagen Jetta, and recorded
 #' the time it took for motorists to show signs of aggression.
-#' Signs of aggression included honking their horn or beaming 
+#' Signs of aggression included honking their horn or beaming
 #' the headlights at the Jetta
 #'
 #' @format A data frame with 57 rows and 2 variables:

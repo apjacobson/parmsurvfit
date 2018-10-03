@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 # parmsurvfit
 
 The goal of parmsurvfit is to create functions that display output for Survival Analysis
-that are easily available in Minitab, but much more difficult to obtain in R. All of the
+that are easily available in 'Minitab', but much more difficult to obtain in R. All of the
 functions in this package are assuming that the data follows a specified parametric distribution. 
 Some examples of some of the items that are readily available in Minitab but not in R, that we 
 attempted to easily recreate in R are as follows:  
