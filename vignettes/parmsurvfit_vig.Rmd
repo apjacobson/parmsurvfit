@@ -3,10 +3,9 @@ title: "Guide to Using parmsurvfit"
 author: "Ashley Jacobson & Victor Wilson"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Guide to using parmsurvfit}
+  %\VignetteIndexEntry{Guide to Using parmsurvfit}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
-  \usepackage[utf8]{inputenc}
 ---
 
 ```{r setup, include = FALSE}
