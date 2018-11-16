@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 # Introduction
  
-The `parmsurvfit` package executes basic parametric survival analysis techniques similar to those in Minitab. Among these are plotting hazard, cumulative hazard, survival, and  density curves, computing survival probabilites, and computing summary statistics based on a specified parametric distribution.
+The `parmsurvfit` package executes basic parametric survival analysis techniques similar to those in Minitab. Among these are fitting right-censored data, assessing fit, plotting survival functions, and summary statistics and probabilities.
 
 
 # Fitting right censored survival data
