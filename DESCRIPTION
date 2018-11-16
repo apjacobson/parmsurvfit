@@ -1,10 +1,10 @@
 Package: parmsurvfit
-Title: Parametric Survival Functions
+Title: Parametric Models for Survival Data
 Version: 0.0.1
 Authors@R: c(person("Ashley", "Jacobson", email = "ashleypjacobson@gmail.com", role = c("aut", "cre")),
               person("Victor", "Wilson", email = "victorjw26@yahoo.com", role = c("aut")),
               person("Shannon", "Pileggi", email = "skmcclintock@gmail.com", role = c("aut")))
-Description: Executes parametric survival analysis techniques similar to those in 'Minitab'. Fits right censored data to a
+Description: Executes parametric survival analysis techniques similar to those in Minitab. Fits right censored data to a
     given parametric distribution, produces summary statistics of the fitted distribution, and plots parametric survival, 
     hazard, and cumulative hazard plots. Produces Anderson-Darling test statistic and probability plots to assess goodness
     of fit of right censored data to a distribution.
@@ -12,7 +12,7 @@ Depends: R (>= 3.5.0)
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Imports: fitdistrplus, flexsurv, ggplot2, stats, graphics
 Suggests: survival, utils, knitr, rmarkdown
 VignetteBuilder: utils, knitr

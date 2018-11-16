@@ -4,7 +4,7 @@
 \alias{surv_prob}
 \title{Survival probability based on parametric distribution}
 \usage{
-surv_prob(data, dist, num, lower.tail = F, time = "time",
+surv_prob(data, dist, x, lower.tail = F, time = "time",
   censor = "censor", by = "")
 }
 \arguments{
@@ -13,17 +13,17 @@ surv_prob(data, dist, num, lower.tail = F, time = "time",
 \item{dist}{A string name for a distribution that has a corresponding density function and a distribution function.
 Examples include "norm", "lnorm", "exp", "weibull", "logis", "llogis", "gompertz", etc.}
 
-\item{num}{A scalar quantity, time at which the probability of survival is computed}
+\item{x}{A scalar quantity, time at which the probability of survival is computed}
 
-\item{lower.tail}{Logical; if \code{F} (default), probability is P(T > \code{num}), otherwise, P(T < \code{num}).}
+\item{lower.tail}{Logical; if \code{F} (default), probability is P(T > \code{x}), otherwise, P(T < \code{x}).}
 
 \item{time}{The string name of the time column of the dataframe. Defaults to "time".}
 
-\item{censor}{The string name of the censor column of the dataframe. Defaults to "censor". The censor column must be 
+\item{censor}{The string name of the censor column of the dataframe. Defaults to "censor". The censor column must be
 a numeric indicator variable where complete times correspond to a value of 1 and incomplete times correspond to 0.}
 
-\item{by}{The string name of a grouping variable. If specified, the function prints probability for each group 
-individually along with the overall probability. 
+\item{by}{The string name of a grouping variable. If specified, the function prints probability for each group
+individually along with the overall probability.
 Variable can contain logical, string, character, or numeric data.}
 }
 \description{
@@ -32,5 +32,5 @@ Computes probability of survival beyond time t given that the data follows a spe
 \examples{
 data("rearrest")
 surv_prob(rearrest, "lnorm", 110, time = "months")
-surv_prob(rearrest, "weibull", 90, time = "months", lower.tail = TRUE)  
+surv_prob(rearrest, "weibull", 90, time = "months", lower.tail = TRUE)
 }
