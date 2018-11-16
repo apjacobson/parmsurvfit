@@ -4,10 +4,11 @@ Version: 0.0.1
 Authors@R: c(person("Ashley", "Jacobson", email = "ashleypjacobson@gmail.com", role = c("aut", "cre")),
               person("Victor", "Wilson", email = "victorjw26@yahoo.com", role = c("aut")),
               person("Shannon", "Pileggi", email = "skmcclintock@gmail.com", role = c("aut")))
-Description: Executes parametric survival analysis techniques similar to those in Minitab. Fits right censored data to a
-    given parametric distribution, produces summary statistics of the fitted distribution, and plots parametric survival, 
-    hazard, and cumulative hazard plots. Produces Anderson-Darling test statistic and probability plots to assess goodness
-    of fit of right censored data to a distribution.
+Description: This package executes simple parametic models for right-censored survival 
+data.  Functionality emulates capabilities in Minitab, including fitting right-censored 
+data, assessing fit, plotting survival functions, and summary statistics and 
+probabilities.
+
 Depends: R (>= 3.5.0)
 License: GPL-2
 Encoding: UTF-8
