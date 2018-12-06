@@ -1,19 +1,29 @@
 Package: parmsurvfit
 Title: Parametric Models for Survival Data
 Version: 0.0.1
-Authors@R: c(person("Ashley", "Jacobson", email = "ashleypjacobson@gmail.com", role = c("aut", "cre")),
-              person("Victor", "Wilson", email = "victorjw26@yahoo.com", role = c("aut")),
-              person("Shannon", "Pileggi", email = "skmcclintock@gmail.com", role = c("aut")))
-Description: This package executes simple parametic models for right-censored survival 
-data.  Functionality emulates capabilities in Minitab, including fitting right-censored 
-data, assessing fit, plotting survival functions, and summary statistics and 
-probabilities.
-
+Authors@R: c(
+    person("Ashley", "Jacobson", email = "ashleypjacobson@gmail.com", role = c("aut", "cre")),
+    person("Victor", "Wilson", email = "victorjw26@yahoo.com", role = c("aut")),
+    person("Shannon", "Pileggi", email = "skmcclintock@gmail.com", role = c("aut"))
+    )
+Description: This package executes simple parametic models for right-censored 
+    survival data.  Functionality emulates capabilities in Minitab, including
+    fitting right-censored data, assessing fit, plotting survival functions,
+    and summary statistics and probabilities.
 Depends: R (>= 3.5.0)
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-Imports: fitdistrplus, flexsurv, ggplot2, stats, graphics
-Suggests: survival, utils, knitr, rmarkdown
+Imports: 
+    fitdistrplus, 
+    flexsurv, 
+    ggplot2, 
+    stats, 
+    graphics
+Suggests: 
+    survival, 
+    utils, 
+    knitr, 
+    rmarkdown
 VignetteBuilder: utils, knitr
