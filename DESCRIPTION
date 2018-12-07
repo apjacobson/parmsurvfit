@@ -1,13 +1,13 @@
 Package: parmsurvfit
 Title: Parametric Models for Survival Data
-Version: 0.0.1
+Version: 0.1.0
 Authors@R: c(
     person("Ashley", "Jacobson", email = "ashleypjacobson@gmail.com", role = c("aut", "cre")),
     person("Victor", "Wilson", email = "victorjw26@yahoo.com", role = c("aut")),
     person("Shannon", "Pileggi", email = "skmcclintock@gmail.com", role = c("aut"))
     )
-Description: This package executes simple parametic models for right-censored 
-    survival data.  Functionality emulates capabilities in Minitab, including
+Description: Executes simple parametric models for right-censored 
+    survival data.  Functionality emulates capabilities in 'Minitab', including
     fitting right-censored data, assessing fit, plotting survival functions,
     and summary statistics and probabilities.
 Depends: R (>= 3.5.0)

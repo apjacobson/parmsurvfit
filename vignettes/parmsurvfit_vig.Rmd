@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 # Introduction
  
-The `parmsurvfit` package executes basic parametric survival analysis techniques similar to those in Minitab. Among these are fitting right-censored data, assessing fit, plotting survival functions, and summary statistics and probabilities.
+The `parmsurvfit` package executes basic parametric survival analysis techniques similar to those in 'Minitab'. Among these are fitting right-censored data, assessing fit, plotting survival functions, and summary statistics and probabilities.
 
 
 # Fitting right censored survival data
@@ -95,7 +95,7 @@ plot_surv(data = firstdrink,
           by = "gender")
 ```
 
-The hazard function, denoted $h(t)$, esimates the conditional risk that a subject will experience the event of interest in the next instant of time, given that the subject has survived beyond a certain time $t$.
+The hazard function, denoted $h(t)$, estimates the conditional risk that a subject will experience the event of interest in the next instant of time, given that the subject has survived beyond a certain time $t$.
 
 ```{r}
 plot_haz(data = firstdrink, 

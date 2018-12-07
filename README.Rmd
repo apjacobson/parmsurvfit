@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # parmsurvfit
 
-This package executes simple parametic models for right-censored survival data.  Functionality emulates capabilities in Minitab, including fitting right-censored data, assessing fit, plotting survival functions, and summary statistics and probabilities.
+This package executes simple parametric models for right-censored survival data.  Functionality emulates capabilities in 'Minitab', including fitting right-censored data, assessing fit, plotting survival functions, and summary statistics and probabilities.
 
 
 ## Installation
