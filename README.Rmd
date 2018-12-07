@@ -8,7 +8,7 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "README-"
+  fig.path = "man/figures/"
 )
 ```
 
@@ -27,6 +27,10 @@ devtools::install_github("apjacobson/parmsurvfit")
 ```
 
 ## Examples
+
+```{r}
+library(parmsurvfit)
+```
 
 Fitting data and assessing fit:
 
